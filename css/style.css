@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family:Arial, Helvetica, sans-serif; 
+  font-family: Arial, Helvetica, sans-serif;
   background-color: #222222;
   color: #fff;
 }
@@ -74,30 +74,111 @@ a{
   margin: 20px 0px;
 }
 .btn {
-  margin-top: 40px;
+  margin: 30px auto;
   font-size: 20px;
+  padding: 15px 10px;
+  background-color: #32312f;
+  width: 200px;
 }
 .btn a {
-  padding: 15px;
-  background-color: #32312f;
   color:#fff
 }
-.btn a:hover{
+.btn:hover {
   background-color: #e4aa52;
-  color:#32312f;
+}
+.btn a:hover {
+  color: #32312f;
 }
 img {
   display: block;
-  margin: auto;
   float: left;
-  width: 50%; 
-  height: 400px;
+  width: 50%;
+  height: 400px; 
 }
-.box {
+#box {
   float: right;
-  width: 50%;   
+  display: block;
+  box-sizing: border-box; 
+  width: 50%;
   height: 400px;
-  box-sizing: border-box;
-  background: #32312f;
-  padding: 30px;
+  padding: 20px;
+  background: #32312f; 
+}
+.content-2 {
+  margin-top: 30px;
+  
+  text-align: center;
+}
+.content-2 p {
+  margin-top: 30px;
+  line-height: 1.8em;
+}
+.history {
+  color:#e4aa52;
+  margin-right: 5px;
+  
+}
+.btn2 {
+  margin: 40px auto;
+  padding: 15px 0;
+  background-color: #fff;
+  width: 140px;
+  
+}
+.btn2 a {
+  color:#32312f; 
+}
+.btn2:hover{
+  background-color: #e4aa52;
+}
+
+#card-1 {
+  width: 33.3%;
+  float: left;
+  display: inline-block;
+  background: #f4f4f4;
+  color: #32312f;
+  padding: 80px 20px;
+  height: 250px;
+  text-align: center;
+}
+#card-2 {
+  width: 33.4%;
+  display: inline-block;
+  background: #e4aa52;
+  color: #fff;
+  padding: 80px 20px;
+  height: 250px; 
+  text-align: center;
+}
+#card-3 {
+  width: 33.3%;
+  float: right;
+  display: inline-block;
+  background: #f4f4f4;
+  color: #32312f;
+  padding: 80px 20px;
+  height: 250px;
+  text-align: center; 
+}
+.card {
+  line-height: 1.8em;
+}
+.card p {
+  margin-top: 30px;
+
+}
+.clr{
+  clear:both;
+}
+#footer {
+  display: block;
+  height: 90px;
+  background: #4e4e50;
+}
+#footer p {
+  margin: auto;
+  padding: 35px 0;
+  max-width: 960px;
+  text-align: center;
 }
