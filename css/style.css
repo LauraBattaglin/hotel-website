@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
 }
-
+/* Main CSS */
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: #222222;
@@ -14,18 +14,15 @@ a{
   text-decoration: none;
 }
 
-
 .container {
   overflow: auto;
-  margin: 0px auto;
+  margin: 0 auto;
   max-width: 960px;
-  padding: 0px 10px;
+  
 }
 .container li {
   float: right;
   list-style: none; 
-  margin: 0px 15px;
-  
 }
 .container li a {
   display: block;
@@ -39,7 +36,8 @@ a{
 }
 .logo {
   float: left;
-  margin: 15px 0px 20px 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   
 }
 .logo a{
@@ -53,12 +51,10 @@ a{
 #showcase {
   background: url('/img/showcase.jpg') no-repeat center center/cover;
   height: 600px; 
-  text-align: center;
 }
-
 .showcase-content {
   margin: 200px auto;
-  max-width: 960px;
+  text-align: center;
 }
 .showcase-content h1 {
   font-size: 60px;
@@ -115,15 +111,13 @@ img {
 }
 .history {
   color:#e4aa52;
-  margin-right: 5px;
-  
+  margin-right: 5px; 
 }
 .btn2 {
   margin: 40px auto;
   padding: 15px 0;
   background-color: #fff;
-  width: 140px;
-  
+  width: 140px; 
 }
 .btn2 a {
   color:#32312f; 
@@ -166,10 +160,6 @@ img {
 }
 .card p {
   margin-top: 30px;
-
-}
-.clr{
-  clear:both;
 }
 #footer {
   display: block;
@@ -181,4 +171,42 @@ img {
   padding: 35px 0;
   max-width: 960px;
   text-align: center;
+}
+
+/* Contact CSS */
+
+#form {
+  background-color: #fff;
+  color:#222222;
+  height: 650px;  
+}
+.form-wrap {
+  margin-top: 20px;
+  padding: 5px;  
+}
+
+.form-wrap h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.form-wrap p {
+  margin-bottom: 20px;
+}
+.title {
+  color: #e4aa52;
+  margin-right: 10px;
+}
+.form-wrap .form-group label {
+  display: block;
+  margin-top: 20px;
+}
+.form-wrap .form-group input {
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #d1d2d7;
+}
+#message {
+  border: 1px solid #d1d2d7;
+  margin-top: 10px;
 }
