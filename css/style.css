@@ -75,6 +75,7 @@ a{
   padding: 15px 10px;
   background-color: #32312f;
   width: 200px;
+  border: none;
 }
 .btn a {
   color:#fff
@@ -205,8 +206,51 @@ img {
   margin-top: 10px;
   padding: 10px;
   border: 1px solid #d1d2d7;
+  
 }
 #message {
   border: 1px solid #d1d2d7;
   margin-top: 10px;
+}
+
+.btn3 {
+  font-size: 18px;
+  padding: 15px 10px;
+  background-color: #32312f;
+  width: 100px;
+  border: none;
+  color:#fff;
+  margin-top: 20px;
+}
+.btn3:hover {
+  background-color: #e4aa52;
+  color: #32312f;
+}
+#info {
+  height: 250px; 
+}
+
+#box-1 {
+  display: block;
+  float: left;
+  width: 33.1%
+}
+#box-2 {
+  display: inline-block;
+  width: 33.1%
+}
+#box-3 {
+  display: block;
+  float: right;
+  width: 33.1%
+}
+.box {
+  margin-top: 50px;
+  text-align: center;
+}
+.box h3 {
+  margin-top: 50px;
+}
+.box p {
+  margin-top: 40px;
 }
