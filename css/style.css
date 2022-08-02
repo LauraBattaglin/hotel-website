@@ -6,7 +6,7 @@
 /* Main CSS */
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #222222;
+  background-color: #343434;
   color: #fff;
 }
 
@@ -14,20 +14,23 @@ a{
   text-decoration: none;
 }
 
-.container {
+#navbar {
   overflow: auto;
+  height: 70px;
+}
+.container {
   margin: 0 auto;
-  max-width: 960px;
-  
+  max-width: 1050px;
 }
 .container li {
+  display: block;
   float: right;
   list-style: none; 
 }
 .container li a {
   display: block;
   color: #fff;
-  padding: 20px 15px 25px 15px;
+  padding: 26px 20px;
    
 }
 .container li a:hover {
@@ -35,9 +38,9 @@ a{
   color: #e4aa52;
 }
 .logo {
+  display:block;
   float: left;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  margin: 20px 0;
   
 }
 .logo a{
@@ -51,19 +54,18 @@ a{
 #showcase {
   background: url('/img/showcase.jpg') no-repeat center center/cover;
   height: 600px; 
+  padding: 200px 0;
 }
 .showcase-content {
-  margin: 200px auto;
   text-align: center;
 }
 .showcase-content h1 {
   font-size: 60px;
   margin-bottom: 30px;
 }
-.título {
-  font-size: 60px;
+.title {
   color:#e4aa52;
-  margin-right: 10px;
+  margin-right: 7px;
 }
 .showcase-content p {
   font-size: 20px;
@@ -86,7 +88,7 @@ a{
 .btn a:hover {
   color: #32312f;
 }
-img {
+.img-hotel {
   display: block;
   float: left;
   width: 50%;
@@ -109,10 +111,6 @@ img {
 .content-2 p {
   margin-top: 30px;
   line-height: 1.8em;
-}
-.history {
-  color:#e4aa52;
-  margin-right: 5px; 
 }
 .btn2 {
   margin: 40px auto;
@@ -179,11 +177,8 @@ img {
 #form {
   background-color: #fff;
   color:#222222;
-  height: 650px;  
-}
-.form-wrap {
-  margin-top: 20px;
-  padding: 5px;  
+  height: 650px; 
+  padding-top: 20px; 
 }
 
 .form-wrap h1 {
@@ -193,10 +188,7 @@ img {
 .form-wrap p {
   margin-bottom: 20px;
 }
-.title {
-  color: #e4aa52;
-  margin-right: 10px;
-}
+
 .form-wrap .form-group label {
   display: block;
   margin-top: 20px;
@@ -228,6 +220,7 @@ img {
 }
 #info {
   height: 250px; 
+  padding: 50px 0;
 }
 
 #box-1 {
@@ -245,12 +238,79 @@ img {
   width: 33.1%
 }
 .box {
-  margin-top: 50px;
   text-align: center;
-}
-.box h3 {
-  margin-top: 50px;
+  padding-top: 30px;
 }
 .box p {
   margin-top: 40px;
+}
+
+/*About CSS*/
+
+#about {
+  height: 330px;
+  background-color: rgb(243, 240, 240);
+  color: #222222;
+  padding: 20px; 
+}
+.photo-hotel {
+  width: 45%;
+  float: right;
+  border-radius: 50%;
+  padding: 5px 50px; 
+}
+.about-content {
+  display: block;
+  width: 55%;
+  float: left;  
+  padding-right: 45px;
+}
+.about-content h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.about-content p {
+  margin-top: 10px;
+  line-height: 1.6em;
+}
+#reviews {
+  height: 600px;
+  background: url('/img/test-bg.jpg') no-repeat center center;
+  padding: 50px 0;
+}
+.reviews-content h2 {
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.review-client1 {
+  width: 100%;
+
+}
+.client-1 {
+  display: block;
+  float: left;
+  height: 100px;
+  border-radius: 50%;
+  width: 10%
+
+}
+.review-1 {
+  display: block;
+  float: right;
+  width: 90%;
+  
+}
+.client-2 {
+  display: block;
+  float: left;
+  height: 100px;
+  border-radius: 50%;
+  width:10%
+}
+.review-2 {
+  display: block;
+  float: right;
+  width: 90%;
+  
 }
